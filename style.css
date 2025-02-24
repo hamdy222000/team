@@ -1,0 +1,240 @@
+
+
+body{
+    
+    margin:10;
+    
+    font-family: "Roboto", serif;
+    
+}
+
+/*******    header    *******/
+
+.header {
+
+background-color: #f12c05;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-right: 20px;
+
+}
+
+
+.logo {
+    width: 50px;
+    margin: 10px 10px 10px 30px;
+    border: #701804 4px solid;
+}
+
+.link a {
+    color: white;
+    padding: 5px 30px 5px 30px ;
+    text-decoration: none;
+    border-radius: 25px;
+
+
+}
+
+.btn{
+    color: white;
+    background-color: rgb(61, 42, 186);
+    border: none;
+    border-radius: 30px;
+
+}
+.btn:hover{
+    background-color: rgb(45, 173, 215) ;
+}
+
+.link button {
+  
+    width: 70px;
+    height: 30px;
+
+}
+
+
+
+.link a:hover {
+
+    color: rgb(16, 13, 187);
+    background-color: #f55a06;
+
+
+}
+
+
+/*******    landing page    *******/
+
+.land{
+    background-color: #f12c05;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px 50px 20px;
+    border-radius: 0 0 70px 70px;
+
+}
+
+.intro h1 , .intro h2{
+    color: white;
+
+
+}
+
+.intro p{
+    width: 400px;
+}
+
+
+
+
+.intro input{
+
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px 30px 5px 10px ;
+    border: none;
+    outline: none;
+
+}
+.intro button{
+ 
+    height: 26px;   
+    position: relative;
+    right:  30px;
+}
+
+
+.pic {
+
+    border: #701804 4px solid;
+    margin-right: 50px 20px;
+    border-radius: 50px;
+
+
+}
+
+
+/*******    core  *******/
+
+.core{
+
+   
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px 50px 20px;
+}
+
+.trend {
+    color: #701804;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.trend_game button{
+    
+    height: 26px;
+}
+.trend_game{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+.trend_game h1{
+    margin-top: 0;
+}
+
+   /*******    card  *******/
+
+
+.card_info img{
+    height: 200px;
+    width:150px;
+    
+    border-radius: 20px 20px 0px 0px;
+    margin-bottom: 0;
+   
+
+
+}
+
+.txt_info samp{
+    color: rgb(46, 44, 44);
+}
+
+.txt_info h5{
+    margin-top: 0;
+}
+.txt_info{
+    margin-left: 15px;
+    padding-top: 10px;
+
+}
+
+.info img {
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+.info img:hover{
+
+    height: 35px;
+    width: 35px;
+
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 150px;
+    background-color: rgb(188, 179, 179);
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 0;
+    position: relative;
+    bottom: 4px;
+ 
+
+}
+
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: centers;
+    padding: 5px 30px;
+    border-radius: 20px;
+    
+}
+
+.distance{
+
+    margin-top: 100px;
+}
+
+
+.end{
+    
+  
+    margin-top: 500px;
+    background-color: #f12c05;
+    border-radius: 70px 70px 0px 0px;
+    padding-top: 2px;
+    padding-bottom:2px ;
+ 
+}
+
+.end h1{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+   
+    
+
+}
+
